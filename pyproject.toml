@@ -1,0 +1,17 @@
+[project]
+name = "using-crawl4ai"
+version = "0.1.0"
+description = "Este repositório é um estudo baseado em crawl4AI"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "crawl4ai>=0.5.0.post8",
+    "ipykernel>=6.29.5",
+    "nest-asyncio>=1.6.0",
+    "playwright>=1.51.0",
+]
+
+[dependency-groups]
+dev = [
+    "black>=25.1.0",
+]
