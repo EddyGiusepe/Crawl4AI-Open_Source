@@ -2,14 +2,14 @@
 """
 Senior Data Scientist.: Dr. Eddy Giusepe Chirinos Isidro
 
-2_app.py
-========
+2_scraping_a_web_page.py
+========================
 Este script é responsável por realizar o crawl (scraping) 
 de uma página web e salvar os resultados em arquivos 
 JSON, Markdown e CSV.
 
 Run:
-uv run 2_app.py
+uv run 2_scraping_a_web_page.py
 """
 import asyncio
 import json
